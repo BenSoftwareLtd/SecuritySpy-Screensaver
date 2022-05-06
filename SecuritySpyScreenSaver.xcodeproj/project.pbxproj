@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B575384C1A1A433300C15131 /* NSURLRequest+IgnoreSSL.h in Headers */ = {isa = PBXBuildFile; fileRef = B575384A1A1A433300C15131 /* NSURLRequest+IgnoreSSL.h */; };
+		B575384D1A1A433300C15131 /* NSURLRequest+IgnoreSSL.m in Sources */ = {isa = PBXBuildFile; fileRef = B575384B1A1A433300C15131 /* NSURLRequest+IgnoreSSL.m */; };
+		B5F9A81E18AFEC4100ECCC8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F9A81D18AFEC4100ECCC8D /* Cocoa.framework */; };
+		B5F9A82018AFEC4100ECCC8D /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F9A81F18AFEC4100ECCC8D /* ScreenSaver.framework */; };
+		B5F9A84618B0D5DB00ECCC8D /* SSControllerView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A83418B0D5DB00ECCC8D /* SSControllerView.h */; };
+		B5F9A84718B0D5DB00ECCC8D /* SSControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A83518B0D5DB00ECCC8D /* SSControllerView.m */; };
+		B5F9A84818B0D5DB00ECCC8D /* SSCameraLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A83618B0D5DB00ECCC8D /* SSCameraLayoutView.h */; };
+		B5F9A84918B0D5DB00ECCC8D /* SSCameraLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A83718B0D5DB00ECCC8D /* SSCameraLayoutView.m */; };
+		B5F9A84A18B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A83818B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.h */; };
+		B5F9A84B18B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A83918B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.m */; };
+		B5F9A84C18B0D5DB00ECCC8D /* SSServer.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A83A18B0D5DB00ECCC8D /* SSServer.h */; };
+		B5F9A84D18B0D5DB00ECCC8D /* SSServer+.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A83B18B0D5DB00ECCC8D /* SSServer+.h */; };
+		B5F9A84E18B0D5DB00ECCC8D /* SSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A83C18B0D5DB00ECCC8D /* SSServer.m */; };
+		B5F9A84F18B0D5DB00ECCC8D /* SSItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A83D18B0D5DB00ECCC8D /* SSItem.h */; };
+		B5F9A85018B0D5DB00ECCC8D /* SSItem+.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A83E18B0D5DB00ECCC8D /* SSItem+.h */; };
+		B5F9A85118B0D5DB00ECCC8D /* SSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A83F18B0D5DB00ECCC8D /* SSItem.m */; };
+		B5F9A85218B0D5DB00ECCC8D /* SSCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A84018B0D5DB00ECCC8D /* SSCamera.h */; };
+		B5F9A85318B0D5DB00ECCC8D /* SSCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A84118B0D5DB00ECCC8D /* SSCamera.m */; };
+		B5F9A85418B0D5DB00ECCC8D /* SSCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A84218B0D5DB00ECCC8D /* SSCapture.h */; };
+		B5F9A85518B0D5DB00ECCC8D /* SSCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A84318B0D5DB00ECCC8D /* SSCapture.m */; };
+		B5F9A85618B0D5DB00ECCC8D /* SSTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A84418B0D5DB00ECCC8D /* SSTypes.h */; };
+		B5F9A85718B0D5DB00ECCC8D /* ScreenSaver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A84518B0D5DB00ECCC8D /* ScreenSaver_Prefix.pch */; };
+		B5F9A86818B0D60500ECCC8D /* MBMarkupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A85A18B0D60500ECCC8D /* MBMarkupParser.h */; };
+		B5F9A86918B0D60500ECCC8D /* MBMarkupParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A85B18B0D60500ECCC8D /* MBMarkupParser.m */; };
+		B5F9A86A18B0D60500ECCC8D /* NSData+MBBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A85C18B0D60500ECCC8D /* NSData+MBBase64.h */; };
+		B5F9A86B18B0D60500ECCC8D /* NSData+MBBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A85D18B0D60500ECCC8D /* NSData+MBBase64.m */; };
+		B5F9A86C18B0D60500ECCC8D /* NSData+MBObfuscate.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A85E18B0D60500ECCC8D /* NSData+MBObfuscate.h */; };
+		B5F9A86D18B0D60500ECCC8D /* NSData+MBObfuscate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A85F18B0D60500ECCC8D /* NSData+MBObfuscate.m */; };
+		B5F9A86E18B0D60500ECCC8D /* NSMutableArray+MBReordering.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A86018B0D60500ECCC8D /* NSMutableArray+MBReordering.h */; };
+		B5F9A86F18B0D60500ECCC8D /* NSMutableArray+MBReordering.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A86118B0D60500ECCC8D /* NSMutableArray+MBReordering.m */; };
+		B5F9A87018B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A86218B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.h */; };
+		B5F9A87118B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A86318B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.m */; };
+		B5F9A87218B0D60500ECCC8D /* MBDeleteInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A86418B0D60500ECCC8D /* MBDeleteInterceptor.h */; };
+		B5F9A87318B0D60500ECCC8D /* MBDeleteInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A86518B0D60500ECCC8D /* MBDeleteInterceptor.m */; };
+		B5F9A87418B0D60500ECCC8D /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A86618B0D60500ECCC8D /* DLog.h */; };
+		B5F9A87518B0D60500ECCC8D /* DLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A86718B0D60500ECCC8D /* DLog.m */; };
+		B5F9A87C18B0D62400ECCC8D /* MBDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A87718B0D62400ECCC8D /* MBDiskCache.h */; };
+		B5F9A87D18B0D62400ECCC8D /* MBDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A87818B0D62400ECCC8D /* MBDiskCache.m */; };
+		B5F9A87E18B0D62400ECCC8D /* MBDiskCacheTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A87918B0D62400ECCC8D /* MBDiskCacheTicket.h */; };
+		B5F9A87F18B0D62400ECCC8D /* MBDiskCacheTicket+.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A87A18B0D62400ECCC8D /* MBDiskCacheTicket+.h */; };
+		B5F9A88018B0D62400ECCC8D /* MBDiskCacheTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A87B18B0D62400ECCC8D /* MBDiskCacheTicket.m */; };
+		B5F9A88618B0D63500ECCC8D /* MBURLFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A88218B0D63500ECCC8D /* MBURLFetch.h */; };
+		B5F9A88718B0D63500ECCC8D /* MBURLFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A88318B0D63500ECCC8D /* MBURLFetch.m */; };
+		B5F9A88818B0D63500ECCC8D /* MBURLFetchQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F9A88418B0D63500ECCC8D /* MBURLFetchQueue.h */; };
+		B5F9A88918B0D63500ECCC8D /* MBURLFetchQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9A88518B0D63500ECCC8D /* MBURLFetchQueue.m */; };
+		B5F9A89318B0D64F00ECCC8D /* ConfigureSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = B5F9A88E18B0D64F00ECCC8D /* ConfigureSheet.nib */; };
+		B5F9A89418B0D64F00ECCC8D /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F9A88F18B0D64F00ECCC8D /* plus.png */; };
+		B5F9A89518B0D64F00ECCC8D /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F9A89018B0D64F00ECCC8D /* minus.png */; };
+		B5F9A89818B0D66900ECCC8D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F9A89618B0D66900ECCC8D /* libxml2.dylib */; };
+		B5F9A89918B0D66900ECCC8D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F9A89718B0D66900ECCC8D /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B575384A1A1A433300C15131 /* NSURLRequest+IgnoreSSL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+IgnoreSSL.h"; path = "Code/NSURLRequest+IgnoreSSL.h"; sourceTree = SOURCE_ROOT; };
+		B575384B1A1A433300C15131 /* NSURLRequest+IgnoreSSL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+IgnoreSSL.m"; path = "Code/NSURLRequest+IgnoreSSL.m"; sourceTree = SOURCE_ROOT; };
+		B5F9A81A18AFEC4100ECCC8D /* SecuritySpy.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecuritySpy.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F9A81D18AFEC4100ECCC8D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B5F9A81F18AFEC4100ECCC8D /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		B5F9A83418B0D5DB00ECCC8D /* SSControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSControllerView.h; path = Code/SSControllerView.h; sourceTree = SOURCE_ROOT; };
+		B5F9A83518B0D5DB00ECCC8D /* SSControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSControllerView.m; path = Code/SSControllerView.m; sourceTree = SOURCE_ROOT; };
+		B5F9A83618B0D5DB00ECCC8D /* SSCameraLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCameraLayoutView.h; path = Code/SSCameraLayoutView.h; sourceTree = SOURCE_ROOT; };
+		B5F9A83718B0D5DB00ECCC8D /* SSCameraLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCameraLayoutView.m; path = Code/SSCameraLayoutView.m; sourceTree = SOURCE_ROOT; };
+		B5F9A83818B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDigitsOnlyFormatter.h; path = Code/MBDigitsOnlyFormatter.h; sourceTree = SOURCE_ROOT; };
+		B5F9A83918B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDigitsOnlyFormatter.m; path = Code/MBDigitsOnlyFormatter.m; sourceTree = SOURCE_ROOT; };
+		B5F9A83A18B0D5DB00ECCC8D /* SSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSServer.h; path = Code/SSServer.h; sourceTree = SOURCE_ROOT; };
+		B5F9A83B18B0D5DB00ECCC8D /* SSServer+.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SSServer+.h"; path = "Code/SSServer+.h"; sourceTree = SOURCE_ROOT; };
+		B5F9A83C18B0D5DB00ECCC8D /* SSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSServer.m; path = Code/SSServer.m; sourceTree = SOURCE_ROOT; };
+		B5F9A83D18B0D5DB00ECCC8D /* SSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSItem.h; path = Code/SSItem.h; sourceTree = SOURCE_ROOT; };
+		B5F9A83E18B0D5DB00ECCC8D /* SSItem+.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SSItem+.h"; path = "Code/SSItem+.h"; sourceTree = SOURCE_ROOT; };
+		B5F9A83F18B0D5DB00ECCC8D /* SSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSItem.m; path = Code/SSItem.m; sourceTree = SOURCE_ROOT; };
+		B5F9A84018B0D5DB00ECCC8D /* SSCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCamera.h; path = Code/SSCamera.h; sourceTree = SOURCE_ROOT; };
+		B5F9A84118B0D5DB00ECCC8D /* SSCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCamera.m; path = Code/SSCamera.m; sourceTree = SOURCE_ROOT; };
+		B5F9A84218B0D5DB00ECCC8D /* SSCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCapture.h; path = Code/SSCapture.h; sourceTree = SOURCE_ROOT; };
+		B5F9A84318B0D5DB00ECCC8D /* SSCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCapture.m; path = Code/SSCapture.m; sourceTree = SOURCE_ROOT; };
+		B5F9A84418B0D5DB00ECCC8D /* SSTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSTypes.h; path = Code/SSTypes.h; sourceTree = SOURCE_ROOT; };
+		B5F9A84518B0D5DB00ECCC8D /* ScreenSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenSaver_Prefix.pch; path = Code/ScreenSaver_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		B5F9A85A18B0D60500ECCC8D /* MBMarkupParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBMarkupParser.h; path = "Shared Code/MBMarkupParser.h"; sourceTree = "<group>"; };
+		B5F9A85B18B0D60500ECCC8D /* MBMarkupParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBMarkupParser.m; path = "Shared Code/MBMarkupParser.m"; sourceTree = "<group>"; };
+		B5F9A85C18B0D60500ECCC8D /* NSData+MBBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MBBase64.h"; path = "Shared Code/NSData+MBBase64.h"; sourceTree = "<group>"; };
+		B5F9A85D18B0D60500ECCC8D /* NSData+MBBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MBBase64.m"; path = "Shared Code/NSData+MBBase64.m"; sourceTree = "<group>"; };
+		B5F9A85E18B0D60500ECCC8D /* NSData+MBObfuscate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MBObfuscate.h"; path = "Shared Code/NSData+MBObfuscate.h"; sourceTree = "<group>"; };
+		B5F9A85F18B0D60500ECCC8D /* NSData+MBObfuscate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MBObfuscate.m"; path = "Shared Code/NSData+MBObfuscate.m"; sourceTree = "<group>"; };
+		B5F9A86018B0D60500ECCC8D /* NSMutableArray+MBReordering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MBReordering.h"; path = "Shared Code/NSMutableArray+MBReordering.h"; sourceTree = "<group>"; };
+		B5F9A86118B0D60500ECCC8D /* NSMutableArray+MBReordering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MBReordering.m"; path = "Shared Code/NSMutableArray+MBReordering.m"; sourceTree = "<group>"; };
+		B5F9A86218B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBASCIIOnlyStringFormatter.h; path = "Shared Code/MBASCIIOnlyStringFormatter.h"; sourceTree = "<group>"; };
+		B5F9A86318B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBASCIIOnlyStringFormatter.m; path = "Shared Code/MBASCIIOnlyStringFormatter.m"; sourceTree = "<group>"; };
+		B5F9A86418B0D60500ECCC8D /* MBDeleteInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDeleteInterceptor.h; path = "Shared Code/MBDeleteInterceptor.h"; sourceTree = "<group>"; };
+		B5F9A86518B0D60500ECCC8D /* MBDeleteInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDeleteInterceptor.m; path = "Shared Code/MBDeleteInterceptor.m"; sourceTree = "<group>"; };
+		B5F9A86618B0D60500ECCC8D /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLog.h; path = "Shared Code/DLog.h"; sourceTree = "<group>"; };
+		B5F9A86718B0D60500ECCC8D /* DLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLog.m; path = "Shared Code/DLog.m"; sourceTree = "<group>"; };
+		B5F9A87718B0D62400ECCC8D /* MBDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDiskCache.h; path = "Shared Code/MBDiskCache/MBDiskCache.h"; sourceTree = "<group>"; };
+		B5F9A87818B0D62400ECCC8D /* MBDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDiskCache.m; path = "Shared Code/MBDiskCache/MBDiskCache.m"; sourceTree = "<group>"; };
+		B5F9A87918B0D62400ECCC8D /* MBDiskCacheTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBDiskCacheTicket.h; path = "Shared Code/MBDiskCache/MBDiskCacheTicket.h"; sourceTree = "<group>"; };
+		B5F9A87A18B0D62400ECCC8D /* MBDiskCacheTicket+.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBDiskCacheTicket+.h"; path = "Shared Code/MBDiskCache/MBDiskCacheTicket+.h"; sourceTree = "<group>"; };
+		B5F9A87B18B0D62400ECCC8D /* MBDiskCacheTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBDiskCacheTicket.m; path = "Shared Code/MBDiskCache/MBDiskCacheTicket.m"; sourceTree = "<group>"; };
+		B5F9A88218B0D63500ECCC8D /* MBURLFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBURLFetch.h; path = "Shared Code/MBURLFetch/MBURLFetch.h"; sourceTree = "<group>"; };
+		B5F9A88318B0D63500ECCC8D /* MBURLFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBURLFetch.m; path = "Shared Code/MBURLFetch/MBURLFetch.m"; sourceTree = "<group>"; };
+		B5F9A88418B0D63500ECCC8D /* MBURLFetchQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBURLFetchQueue.h; path = "Shared Code/MBURLFetch/MBURLFetchQueue.h"; sourceTree = "<group>"; };
+		B5F9A88518B0D63500ECCC8D /* MBURLFetchQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBURLFetchQueue.m; path = "Shared Code/MBURLFetch/MBURLFetchQueue.m"; sourceTree = "<group>"; };
+		B5F9A88E18B0D64F00ECCC8D /* ConfigureSheet.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = ConfigureSheet.nib; path = Resources/ConfigureSheet.nib; sourceTree = "<group>"; };
+		B5F9A88F18B0D64F00ECCC8D /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plus.png; path = Resources/plus.png; sourceTree = "<group>"; };
+		B5F9A89018B0D64F00ECCC8D /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minus.png; path = Resources/minus.png; sourceTree = "<group>"; };
+		B5F9A89618B0D66900ECCC8D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = ../../../../usr/lib/libxml2.dylib; sourceTree = "<group>"; };
+		B5F9A89718B0D66900ECCC8D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F9A81518AFEC4100ECCC8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9A81E18AFEC4100ECCC8D /* Cocoa.framework in Frameworks */,
+				B5F9A82018AFEC4100ECCC8D /* ScreenSaver.framework in Frameworks */,
+				B5F9A89818B0D66900ECCC8D /* libxml2.dylib in Frameworks */,
+				B5F9A89918B0D66900ECCC8D /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F9A80F18AFEC4100ECCC8D = {
+			isa = PBXGroup;
+			children = (
+				B5F9A82518AFEC4100ECCC8D /* Code */,
+				B5F9A85918B0D5EF00ECCC8D /* Shared code */,
+				B5F9A88A18B0D63F00ECCC8D /* Resources */,
+				B5F9A81C18AFEC4100ECCC8D /* Frameworks */,
+				B5F9A81B18AFEC4100ECCC8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F9A81B18AFEC4100ECCC8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A81A18AFEC4100ECCC8D /* SecuritySpy.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F9A81C18AFEC4100ECCC8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A81D18AFEC4100ECCC8D /* Cocoa.framework */,
+				B5F9A81F18AFEC4100ECCC8D /* ScreenSaver.framework */,
+				B5F9A82118AFEC4100ECCC8D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5F9A82118AFEC4100ECCC8D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A89618B0D66900ECCC8D /* libxml2.dylib */,
+				B5F9A89718B0D66900ECCC8D /* libsqlite3.dylib */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B5F9A82518AFEC4100ECCC8D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A83418B0D5DB00ECCC8D /* SSControllerView.h */,
+				B5F9A83518B0D5DB00ECCC8D /* SSControllerView.m */,
+				B5F9A83618B0D5DB00ECCC8D /* SSCameraLayoutView.h */,
+				B5F9A83718B0D5DB00ECCC8D /* SSCameraLayoutView.m */,
+				B5F9A83818B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.h */,
+				B5F9A83918B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.m */,
+				B5F9A83A18B0D5DB00ECCC8D /* SSServer.h */,
+				B5F9A83B18B0D5DB00ECCC8D /* SSServer+.h */,
+				B5F9A83C18B0D5DB00ECCC8D /* SSServer.m */,
+				B5F9A83D18B0D5DB00ECCC8D /* SSItem.h */,
+				B5F9A83E18B0D5DB00ECCC8D /* SSItem+.h */,
+				B5F9A83F18B0D5DB00ECCC8D /* SSItem.m */,
+				B5F9A84018B0D5DB00ECCC8D /* SSCamera.h */,
+				B5F9A84118B0D5DB00ECCC8D /* SSCamera.m */,
+				B5F9A84218B0D5DB00ECCC8D /* SSCapture.h */,
+				B5F9A84318B0D5DB00ECCC8D /* SSCapture.m */,
+				B5F9A84418B0D5DB00ECCC8D /* SSTypes.h */,
+				B5F9A84518B0D5DB00ECCC8D /* ScreenSaver_Prefix.pch */,
+				B575384A1A1A433300C15131 /* NSURLRequest+IgnoreSSL.h */,
+				B575384B1A1A433300C15131 /* NSURLRequest+IgnoreSSL.m */,
+			);
+			name = Code;
+			path = "temp saver";
+			sourceTree = "<group>";
+		};
+		B5F9A85918B0D5EF00ECCC8D /* Shared code */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A88118B0D62700ECCC8D /* MBURLFetch */,
+				B5F9A87618B0D60800ECCC8D /* MBDiskCache */,
+				B5F9A85A18B0D60500ECCC8D /* MBMarkupParser.h */,
+				B5F9A85B18B0D60500ECCC8D /* MBMarkupParser.m */,
+				B5F9A85C18B0D60500ECCC8D /* NSData+MBBase64.h */,
+				B5F9A85D18B0D60500ECCC8D /* NSData+MBBase64.m */,
+				B5F9A85E18B0D60500ECCC8D /* NSData+MBObfuscate.h */,
+				B5F9A85F18B0D60500ECCC8D /* NSData+MBObfuscate.m */,
+				B5F9A86018B0D60500ECCC8D /* NSMutableArray+MBReordering.h */,
+				B5F9A86118B0D60500ECCC8D /* NSMutableArray+MBReordering.m */,
+				B5F9A86218B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.h */,
+				B5F9A86318B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.m */,
+				B5F9A86418B0D60500ECCC8D /* MBDeleteInterceptor.h */,
+				B5F9A86518B0D60500ECCC8D /* MBDeleteInterceptor.m */,
+				B5F9A86618B0D60500ECCC8D /* DLog.h */,
+				B5F9A86718B0D60500ECCC8D /* DLog.m */,
+			);
+			name = "Shared code";
+			sourceTree = "<group>";
+		};
+		B5F9A87618B0D60800ECCC8D /* MBDiskCache */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A87718B0D62400ECCC8D /* MBDiskCache.h */,
+				B5F9A87818B0D62400ECCC8D /* MBDiskCache.m */,
+				B5F9A87918B0D62400ECCC8D /* MBDiskCacheTicket.h */,
+				B5F9A87A18B0D62400ECCC8D /* MBDiskCacheTicket+.h */,
+				B5F9A87B18B0D62400ECCC8D /* MBDiskCacheTicket.m */,
+			);
+			name = MBDiskCache;
+			sourceTree = "<group>";
+		};
+		B5F9A88118B0D62700ECCC8D /* MBURLFetch */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A88218B0D63500ECCC8D /* MBURLFetch.h */,
+				B5F9A88318B0D63500ECCC8D /* MBURLFetch.m */,
+				B5F9A88418B0D63500ECCC8D /* MBURLFetchQueue.h */,
+				B5F9A88518B0D63500ECCC8D /* MBURLFetchQueue.m */,
+			);
+			name = MBURLFetch;
+			sourceTree = "<group>";
+		};
+		B5F9A88A18B0D63F00ECCC8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5F9A88E18B0D64F00ECCC8D /* ConfigureSheet.nib */,
+				B5F9A88F18B0D64F00ECCC8D /* plus.png */,
+				B5F9A89018B0D64F00ECCC8D /* minus.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B5F9A81618AFEC4100ECCC8D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9A84618B0D5DB00ECCC8D /* SSControllerView.h in Headers */,
+				B5F9A84818B0D5DB00ECCC8D /* SSCameraLayoutView.h in Headers */,
+				B5F9A84A18B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.h in Headers */,
+				B5F9A84C18B0D5DB00ECCC8D /* SSServer.h in Headers */,
+				B5F9A84D18B0D5DB00ECCC8D /* SSServer+.h in Headers */,
+				B5F9A84F18B0D5DB00ECCC8D /* SSItem.h in Headers */,
+				B5F9A85018B0D5DB00ECCC8D /* SSItem+.h in Headers */,
+				B5F9A85218B0D5DB00ECCC8D /* SSCamera.h in Headers */,
+				B5F9A85418B0D5DB00ECCC8D /* SSCapture.h in Headers */,
+				B5F9A85618B0D5DB00ECCC8D /* SSTypes.h in Headers */,
+				B5F9A85718B0D5DB00ECCC8D /* ScreenSaver_Prefix.pch in Headers */,
+				B5F9A86818B0D60500ECCC8D /* MBMarkupParser.h in Headers */,
+				B5F9A86A18B0D60500ECCC8D /* NSData+MBBase64.h in Headers */,
+				B5F9A86C18B0D60500ECCC8D /* NSData+MBObfuscate.h in Headers */,
+				B5F9A86E18B0D60500ECCC8D /* NSMutableArray+MBReordering.h in Headers */,
+				B5F9A87018B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.h in Headers */,
+				B5F9A87218B0D60500ECCC8D /* MBDeleteInterceptor.h in Headers */,
+				B5F9A87418B0D60500ECCC8D /* DLog.h in Headers */,
+				B5F9A87C18B0D62400ECCC8D /* MBDiskCache.h in Headers */,
+				B5F9A87E18B0D62400ECCC8D /* MBDiskCacheTicket.h in Headers */,
+				B5F9A87F18B0D62400ECCC8D /* MBDiskCacheTicket+.h in Headers */,
+				B5F9A88618B0D63500ECCC8D /* MBURLFetch.h in Headers */,
+				B5F9A88818B0D63500ECCC8D /* MBURLFetchQueue.h in Headers */,
+				B575384C1A1A433300C15131 /* NSURLRequest+IgnoreSSL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B5F9A81918AFEC4100ECCC8D /* SecuritySpyScreenSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F9A83118AFEC4100ECCC8D /* Build configuration list for PBXNativeTarget "SecuritySpyScreenSaver" */;
+			buildPhases = (
+				B5F9A81418AFEC4100ECCC8D /* Sources */,
+				B5F9A81518AFEC4100ECCC8D /* Frameworks */,
+				B5F9A81618AFEC4100ECCC8D /* Headers */,
+				B5F9A81718AFEC4100ECCC8D /* Resources */,
+				B5F9A81818AFEC4100ECCC8D /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecuritySpyScreenSaver;
+			productName = "temp saver";
+			productReference = B5F9A81A18AFEC4100ECCC8D /* SecuritySpy.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F9A81018AFEC4100ECCC8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = benbird;
+			};
+			buildConfigurationList = B5F9A81318AFEC4100ECCC8D /* Build configuration list for PBXProject "SecuritySpyScreenSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = B5F9A80F18AFEC4100ECCC8D;
+			productRefGroup = B5F9A81B18AFEC4100ECCC8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F9A81918AFEC4100ECCC8D /* SecuritySpyScreenSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F9A81718AFEC4100ECCC8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9A89318B0D64F00ECCC8D /* ConfigureSheet.nib in Resources */,
+				B5F9A89418B0D64F00ECCC8D /* plus.png in Resources */,
+				B5F9A89518B0D64F00ECCC8D /* minus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B5F9A81818AFEC4100ECCC8D /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F9A81418AFEC4100ECCC8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9A84718B0D5DB00ECCC8D /* SSControllerView.m in Sources */,
+				B5F9A84918B0D5DB00ECCC8D /* SSCameraLayoutView.m in Sources */,
+				B5F9A84B18B0D5DB00ECCC8D /* MBDigitsOnlyFormatter.m in Sources */,
+				B5F9A84E18B0D5DB00ECCC8D /* SSServer.m in Sources */,
+				B5F9A85118B0D5DB00ECCC8D /* SSItem.m in Sources */,
+				B5F9A85318B0D5DB00ECCC8D /* SSCamera.m in Sources */,
+				B5F9A85518B0D5DB00ECCC8D /* SSCapture.m in Sources */,
+				B5F9A86918B0D60500ECCC8D /* MBMarkupParser.m in Sources */,
+				B5F9A86B18B0D60500ECCC8D /* NSData+MBBase64.m in Sources */,
+				B5F9A86D18B0D60500ECCC8D /* NSData+MBObfuscate.m in Sources */,
+				B5F9A86F18B0D60500ECCC8D /* NSMutableArray+MBReordering.m in Sources */,
+				B5F9A87118B0D60500ECCC8D /* MBASCIIOnlyStringFormatter.m in Sources */,
+				B5F9A87318B0D60500ECCC8D /* MBDeleteInterceptor.m in Sources */,
+				B5F9A87518B0D60500ECCC8D /* DLog.m in Sources */,
+				B5F9A87D18B0D62400ECCC8D /* MBDiskCache.m in Sources */,
+				B5F9A88018B0D62400ECCC8D /* MBDiskCacheTicket.m in Sources */,
+				B5F9A88718B0D63500ECCC8D /* MBURLFetch.m in Sources */,
+				B5F9A88918B0D63500ECCC8D /* MBURLFetchQueue.m in Sources */,
+				B575384D1A1A433300C15131 /* NSURLRequest+IgnoreSSL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5F9A82F18AFEC4100ECCC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B5F9A83018AFEC4100ECCC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5F9A83218AFEC4100ECCC8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Benjamin Bird";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Code/ScreenSaver_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2/;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = SecuritySpy;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		B5F9A83318AFEC4100ECCC8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Benjamin Bird";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Code/ScreenSaver_Prefix.pch;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2/;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = SecuritySpy;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F9A81318AFEC4100ECCC8D /* Build configuration list for PBXProject "SecuritySpyScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F9A82F18AFEC4100ECCC8D /* Debug */,
+				B5F9A83018AFEC4100ECCC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F9A83118AFEC4100ECCC8D /* Build configuration list for PBXNativeTarget "SecuritySpyScreenSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F9A83218AFEC4100ECCC8D /* Debug */,
+				B5F9A83318AFEC4100ECCC8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5F9A81018AFEC4100ECCC8D /* Project object */;
+}
