@@ -6,3 +6,5 @@ The screensaver has been discontinued for a few years now, but we are finding th
 users for this, so we have decided to publish the source code so that interested users can keep the project alive.
 The screensaver does seem to work well on recent macOS system versions, however some of the the code does need
 modernisation.
+
+We are releasing this code for anyone to use freely for any purpose.
